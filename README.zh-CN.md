@@ -6,7 +6,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.zh-CN.md)
 
-Muse 于 2026-09-08 发布，社区生态增长迅速。和纯链接列表不同，这里的每条收录都带有一句实测点评：它是做什么的、适合谁、有没有什么坑。下面 star 数为 2026-10-05 实测。
+Muse 于 2026-09-08 发布，社区生态增长迅速。和纯链接列表不同，这里的每条收录都带有一句实测点评：它是做什么的、适合谁、有没有什么坑。下面 star 数为 2026-10-09 实测。
 
 ## 目录
 
@@ -14,6 +14,7 @@ Muse 于 2026-09-08 发布，社区生态增长迅速。和纯链接列表不同
 - [Awesome 列表](#awesome-列表)
 - [Skills 技能](#skills-技能)
 - [Connectors 连接器](#connectors-连接器)
+- [Gadgets 硬件小部件](#gadgets-硬件小部件)
 - [Prompts 与用例](#prompts-与用例)
 - [开发工具 / CLI](#开发工具--cli)
 - [评测与基准](#评测与基准)
@@ -22,19 +23,20 @@ Muse 于 2026-09-08 发布，社区生态增长迅速。和纯链接列表不同
 
 ## 官方项目
 
-- [facebookincubator/muse-gadget-sdk](https://github.com/facebookincubator/muse-gadget-sdk) —— Meta 官方 SDK：自制硬件小部件（ESP32/Linux）接入 Muse。发布 3 天即 ⭐1198 · Apache-2.0
+- [facebookincubator/muse-gadget-sdk](https://github.com/facebookincubator/muse-gadget-sdk) —— Meta 官方 SDK：自制硬件小部件（ESP32/Linux）接入 Muse。⭐1798 且增长迅猛 · Apache-2.0
 
 ## Awesome 列表
 
-- [anil-matcha/awesome-muse-connectors](https://github.com/anil-matcha/awesome-muse-connectors) —— 150+ 社区 connector skills + 官方集成目录 + 13 个 agent workflow 模板。社区 star 最高。⭐1312
+- [anil-matcha/awesome-muse-connectors](https://github.com/anil-matcha/awesome-muse-connectors) —— 150+ 社区 connector skills + 官方集成目录 + 13 个 agent workflow 模板。社区 star 最高。⭐1345
 - [aicodedecode/awesome-muse-skills](https://github.com/aicodedecode/awesome-muse-skills) —— 2384 个 skills（899 原创 + 1485 精选转载），配套可搜索网站。⭐10
-- [cszach/awesome-muse](https://github.com/cszach/awesome-muse) —— 指南、用例、工具、新闻 12 个板块的策展列表，更新勤快。⭐3
+- [cszach/awesome-muse](https://github.com/cszach/awesome-muse) —— 指南、用例、工具、新闻 12 个板块的策展列表，更新勤快。⭐6
 
 ## Skills 技能
 
 - [jacobwell/muse-skills](https://github.com/jacobwell/muse-skills) —— Muse 内置 72 个 skills 的可读复刻 playbook + system prompt 复述。⚠️ 逆向工程所得，未经官方证实。⭐8
 - [pjpoulose/PIL](https://github.com/pjpoulose/PIL) —— 可安装 skill：把 Instagram 收藏帖子变成私人可检索知识库。⭐1
 - [JustinAllen03-stack/muse-imprint](https://github.com/justinallen03-stack/muse-imprint) —— 趣味 skill：给朋友的 Muse「盖章」语音印记（需对方同意，会逐渐消退）。⭐1
+- [GMAn0n/muse-linkedin-skill](https://github.com/GMAn0n/muse-linkedin-skill) —— 即插即用的 LinkedIn 技能：在 Muse 里发帖、读自己的资料。⭐0 · 新增
 
 ## Connectors 连接器
 
@@ -43,26 +45,43 @@ Muse 于 2026-09-08 发布，社区生态增长迅速。和纯链接列表不同
 - [camirian/agent-connector-launch-kit](https://github.com/camirian/agent-connector-launch-kit) —— 为 Muse 构建 OpenAPI connector 的 starter kit，含一次真实提审经验。⭐0
 - [1clawAI/muse-connector](https://github.com/1clawAI/muse-connector) —— 把 1Claw 的审批队列、钱包、活动日志接进 Muse。⭐1
 - [yahavf6/muse-brain](https://github.com/yahavf6/muse-brain) —— 跨 agent 共享决策图谱，Muse 经 REST custom connector 接入（实验性）。⚠️ 非商业许可。⭐11
-- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) —— 跨 AI 工具的记忆层，Muse 以远程 MCP custom connector 接入。star 数未核实。
-- [linboxin/nexus-mcp](https://github.com/linboxin/nexus-mcp) —— 通用 MCP 服务器，Muse 可作为 custom client 接入。star 数未核实。
-- [maddivikash/auto-apply](https://github.com/maddivikash/auto-apply) —— 求职自动投递工具；其文档是「如何做 Muse connector」的完整参考实现（Clerk OAuth 2.1 + PKCE）。star 数未核实。
-- [GkhanKINAY/postqueen-docs](https://github.com/GkhanKINAY/postqueen-docs) —— 文档站，演示 Muse 如何经 custom connector 写帖/排期。star 数未核实。
+- [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) —— 跨 AI 工具的记忆层，Muse 以远程 MCP custom connector 接入。⭐47314 · 它的 star 主要来自更广泛的 agent-memory 受众
+- [linboxin/nexus-mcp](https://github.com/linboxin/nexus-mcp) —— 通用 MCP 服务器，Muse 可作为 custom client 接入。⭐1
+- [maddivikash/auto-apply](https://github.com/maddivikash/auto-apply) —— 求职自动投递工具；其文档是「如何做 Muse connector」的完整参考实现（Clerk OAuth 2.1 + PKCE）。⭐1
+- [GkhanKINAY/postqueen-docs](https://github.com/GkhanKINAY/postqueen-docs) —— 文档站，演示 Muse 如何经 custom connector 写帖/排期。⭐1
+- [racstan/pi-muse-connector](https://github.com/racstan/pi-muse-connector) —— 树莓派 ↔ Muse 的托管 REST API 桥接。⭐0 · 新增
+- [0xBrsm/musebox](https://github.com/0xBrsm/musebox) —— Linux 机器与 Muse 之间的纯文件传输桥。⭐0 · 新增
+
+## Gadgets 硬件小部件
+
+基于 Meta gadget SDK 的社区硬件移植与构建。
+
+- [youlim-bot/MUSE-Gadget-for-Rabbit-r1](https://github.com/youlim-bot/MUSE-Gadget-for-Rabbit-r1) —— 社区把 Muse gadget SDK 移植到 Rabbit r1（LineageOS + Android 应用）。⭐2 · 新增
+- [leungcheukfai/muse-gadget-zh-hant](https://github.com/leungcheukfai/muse-gadget-zh-hant) —— 繁体中文社区版 ESP32 gadget SDK：中文界面、语音回复、网页一键烧录。⭐0 · 新增
+- [nobaksan/stackchan-muse](https://github.com/nobaksan/stackchan-muse) —— 把 M5Stack StackChan 机器人做成 Muse 小部件，含颈部舵机语音指令。⭐0 · 新增
+- [burndown/muse-gadget-cloud](https://github.com/burndown/muse-gadget-cloud) —— ESP32 Muse 小部件 + Cloudflare Worker 网关方案。⭐0 · 新增
 
 ## Prompts 与用例
 
 - [everyai-com/muse-use-cases](https://github.com/everyai-com/muse-use-cases) —— 真实用例田野指南：351 个用例、257 个附完整原始 prompt，另有一份可一次性粘贴的 capability pack。⚠️ 活跃度疑似偏低。⭐2
 - [freeflow-community/skill-explorer](https://github.com/freeflow-community/skill-explorer) —— 网页版个人助手 prompts 浏览器（含 Muse 板块），通过 GitHub issue 征集新 prompt。⭐3
+- [styrigx/muse-playbook](https://github.com/styrigx/muse-playbook) —— 501 条中文 Muse 实用技巧与真实用例，十大分类整理。⭐0 · 新增
+- [doforu-labs/muse-agent-guide](https://github.com/doforu-labs/muse-agent-guide) —— 30+ 可直接复制的 Muse 使用食谱与 workflow 模板。⭐0 · 新增
 
 ## 开发工具 / CLI
 
-- [duclm1x1/Muse-Chat-MCP](https://github.com/duclm1x1/Muse-Chat-MCP) —— 用 Playwright 驱动已登录的 Chrome，把 muse.ai 变成 MCP server + OpenAI 兼容接口 + CLI。⚠️ 可能违反 Meta ToS。⭐38
-- [kevintsai1202/muse-image-mcp](https://github.com/kevintsai1202/muse-image-mcp) —— 社区 MCP server：经 Meta Model API 调用 Muse 图像模型（给开发者在 Claude Code/Cursor 里用，非 Muse 用户工具）。star 数未核实。
+- [duclm1x1/Muse-Chat-MCP](https://github.com/duclm1x1/Muse-Chat-MCP) —— 用 Playwright 驱动已登录的 Chrome，把 muse.ai 变成 MCP server + OpenAI 兼容接口 + CLI。⚠️ 可能违反 Meta ToS。⭐49
+- [kevintsai1202/muse-image-mcp](https://github.com/kevintsai1202/muse-image-mcp) —— 社区 MCP server：经 Meta Model API 调用 Muse 图像模型（给开发者在 Claude Code/Cursor 里用，非 Muse 用户工具）。⭐0
+- [cszach/calliope](https://github.com/cszach/calliope) —— 非官方 muse.ai GNOME 桌面客户端（WebKitGTK）。⭐0 · 新增
+- [drumpat01/muse-chat](https://github.com/drumpat01/muse-chat) —— 非官方聊天客户端，带动态虚拟形象（Linux/Windows）。⭐0 · 新增
+- [buzhidaosm/muse-cli-bridge](https://github.com/buzhidaosm/muse-cli-bridge) —— muse.ai 命令行桥接：Keychain 登录、MCP、双向任务桥。⭐0 · 新增
+- [whxjwksjs/muse-windows](https://github.com/whxjwksjs/muse-windows) —— muse.ai 的 Windows Electron 桌面封装。⭐0 · 新增
 
 ## 评测与基准
 
 - [dpawlan/ai-assistant-benchmark](https://github.com/dpawlan/ai-assistant-benchmark) —— 公开记分牌（Wirecutter 风格）：40 个助手 × 15 个维度，含 Muse 档案页。⭐2
-- [ultrametricai/productarena](https://github.com/ultrametricai/productarena) —— 产品竞技场：Muse 在个人 AI 助手赛道排 #8/9（PA 7.6）。star 数未核实。
-- [mahdi-salmanzade/meta-muse-teardown](https://github.com/mahdi-salmanzade/meta-muse-teardown) —— Muse 客户端的静态隐私分析，附证据与复现脚本（独立安全研究）。⭐2
+- [ultrametricai/ultrametric](https://github.com/ultrametricai/ultrametric) —— 产品竞技场：Muse 在个人 AI 助手赛道排 #8/9（PA 7.6）。⭐4 · 已由 productarena 改名
+- [mahdi-salmanzade/meta-muse-teardown](https://github.com/mahdi-salmanzade/meta-muse-teardown) —— Muse 客户端的静态隐私分析，附证据与复现脚本（独立安全研究）。⭐4
 
 ## 空白与机会
 
